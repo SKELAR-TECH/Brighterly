@@ -47,9 +47,12 @@ radar_visualization({
 entries: [
     // Quadrant 0: Infrastructure
     // Ring 0: Adopt
+    { quadrant: 0, ring: 0, moved: 0, active: true, label: 'GCP Compute Engine' },
+    { quadrant: 0, ring: 0, moved: 0, active: true, label: 'GCP Cloud SQL' },
+    { quadrant: 0, ring: 0, moved: 0, active: true, label: 'Google Kubernetes Engine' },
     { quadrant: 0, ring: 0, moved: 0, active: true, label: 'Cloudflare' },
+    { quadrant: 0, ring: 0, moved: 0, active: true, label: 'Terraform' },
     { quadrant: 0, ring: 0, moved: 0, active: true, label: 'Docker' },
-    { quadrant: 0, ring: 0, moved: 0, active: true, label: 'Digitalocean' },
     { quadrant: 0, ring: 0, moved: 0, active: true, label: 'Gitlab' },
     { quadrant: 0, ring: 0, moved: 0, active: true, label: 'Gitlab CI/CD' },
     { quadrant: 0, ring: 0, moved: 0, active: true, label: 'Sentry' },
@@ -58,33 +61,32 @@ entries: [
     { quadrant: 0, ring: 0, moved: 0, active: true, label: 'Prometheus' },
     { quadrant: 0, ring: 0, moved: 0, active: true, label: 'Kibana' },
     // Ring 2: Assess
-    { quadrant: 0, ring: 2, moved: 0, active: true, label: 'PostgreSQL' },
     { quadrant: 0, ring: 2, moved: 0, active: true, label: 'ElasticSearch' },
-    { quadrant: 0, ring: 2, moved: 0, active: true, label: 'GCP' },
-    { quadrant: 0, ring: 2, moved: 0, active: true, label: 'GKS' },
-    { quadrant: 0, ring: 2, moved: 0, active: true, label: 'Pulumi' },
+    { quadrant: 0, ring: 2, moved: 0, active: true, label: 'PostgreSQL' },
     // Ring 3: Hold
+    { quadrant: 0, ring: 3, moved: 0, active: true, label: 'Digitalocean' },
+    { quadrant: 0, ring: 2, moved: 0, active: true, label: 'Pulumi' },
 
     // Quadrant 1: Integrations
     // Ring 0: Adopt
-    { quadrant: 1, ring: 0, moved: 0, active: true, label: 'Stripe' },
-    { quadrant: 1, ring: 0, moved: 0, active: true, label: 'ZohoCRM' },
-    { quadrant: 1, ring: 0, moved: 0, active: true, label: 'Twilio' },
     { quadrant: 1, ring: 0, moved: 0, active: true, label: 'Amplitude' },
-    { quadrant: 1, ring: 0, moved: 0, active: true, label: 'Postman' },
-    { quadrant: 1, ring: 0, moved: 0, active: true, label: 'Meta pixel' },
-    { quadrant: 1, ring: 0, moved: 0, active: true, label: 'PusherIO' },
-    { quadrant: 1, ring: 0, moved: 0, active: true, label: 'SolidGate' },
     { quadrant: 1, ring: 0, moved: 0, active: true, label: 'Google Tag Manager' },
+    { quadrant: 1, ring: 0, moved: 0, active: true, label: 'Meta pixel' },
+    { quadrant: 1, ring: 0, moved: 0, active: true, label: 'Postman' },
+    { quadrant: 1, ring: 0, moved: 0, active: true, label: 'PusherIO' },
     { quadrant: 1, ring: 0, moved: 0, active: true, label: 'Slack' },
+    { quadrant: 1, ring: 0, moved: 0, active: true, label: 'SolidGate' },
+    { quadrant: 1, ring: 0, moved: 0, active: true, label: 'Stripe' },
+    { quadrant: 1, ring: 0, moved: 0, active: true, label: 'Twilio' },
+    { quadrant: 1, ring: 0, moved: 0, active: true, label: 'ZohoCRM' },
 
     // Quadrant 2: Backend
     // Ring 0: Adopt
-    { quadrant: 2, ring: 0, moved: 0, active: true, label: 'PHP 8.2' },
-    { quadrant: 2, ring: 0, moved: 0, active: true, label: 'Laravel 10' },
-    { quadrant: 2, ring: 0, moved: 0, active: true, label: 'Redis' },
-    { quadrant: 2, ring: 0, moved: 0, active: true, label: 'Queues' },
+    { quadrant: 2, ring: 0, moved: 0, active: true, label: 'Laravel 11' },
     { quadrant: 2, ring: 0, moved: 0, active: true, label: 'MySQL 8' },
+    { quadrant: 2, ring: 0, moved: 0, active: true, label: 'PHP 8.3' },
+    { quadrant: 2, ring: 0, moved: 0, active: true, label: 'Queues' },
+    { quadrant: 2, ring: 0, moved: 0, active: true, label: 'Redis 7' },
 
     // Ring 2: Assess
     { quadrant: 2, ring: 2, moved: 0, active: true, label: 'Wordpress' },
@@ -107,8 +109,8 @@ entries: [
     { quadrant: 3, ring: 0, moved: 0, active: true, label: 'Eslint' },
     { quadrant: 3, ring: 0, moved: 0, active: true, label: 'Tailwind' },
     // Ring 3: Hold
-    { quadrant: 3, ring: 3, moved: 0, active: true, label: 'VueX' },
     { quadrant: 3, ring: 3, moved: 0, active: true, label: 'Nuxt' },
+    { quadrant: 3, ring: 3, moved: 0, active: true, label: 'VueX' },
 ]
   //ENTRIES
 });
